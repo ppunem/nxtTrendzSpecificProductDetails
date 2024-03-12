@@ -1,0 +1,137 @@
+/* Write your CSS here */
+* {
+  font-family: 'roboto';
+}
+.product-item-details-main-container {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.sim-pro-head {
+  color: #171f46;
+  font-weight: 800;
+  padding: 30px;
+}
+.con {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+.image-details-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+.product-image {
+  height: 550px;
+  width: 450px;
+  border-radius: 8px;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+}
+
+.product-head {
+  color: #12022f;
+  font-size: 40px;
+  width: 180px;
+  font-weight: bold;
+}
+.product-price {
+  color: #171f46;
+  font-weight: bold;
+  font-size: 20px;
+}
+.rating-reviews-container {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+.ratings-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3b82f6;
+  color: #ffffff;
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+}
+.rating {
+  text-align: center;
+  margin-top: 10px;
+}
+.star {
+  height: 20px;
+  margin-top: 10px;
+}
+.reviews {
+  font-size: 14px;
+  color: #171f46;
+}
+.product-description {
+  font-size: 16px;
+  color: #cbced2;
+  width: 400px;
+}
+span {
+  color: #12022f;
+  font-size: 16px;
+  font-weight: 600;
+}
+hr {
+  border: 1px solid #cbced2;
+  width: 100%;
+}
+.plus-minus-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100px;
+}
+.minus-plus-button {
+  height: 35px;
+  width: 35px;
+  border: none;
+  background-color: #ffffff;
+  padding: 3px;
+  margin-top: 4px;
+}
+.minus-plus-image {
+  height: 20px;
+  color: #12022f;
+}
+.quantity {
+  color: #475569;
+  font-size: 14px;
+  font-weight: 750px;
+}
+.add-to-cart-button {
+  border: none;
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-size: 14px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 150px;
+  border-radius: 3px;
+}
+.failure-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.continue-shopping {
+  border: none;
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-size: 14px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
